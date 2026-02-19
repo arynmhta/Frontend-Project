@@ -1,0 +1,49 @@
+ body {
+      background-color: #f4f6f9;
+      font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+      height: 100vh;
+      background: #1e293b;
+      position: fixed;
+      width: 240px;
+    }
+
+    .sidebar a {
+      color: #cbd5e1;
+      padding: 12px 20px;
+      display: block;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .sidebar a:hover {
+      background-color: #334155;
+      color: white;
+    }
+
+    .main-content {
+      margin-left: 240px;
+      padding: 20px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 12px;
+    }
+
+    .progress {
+      height: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+      .main-content {
+        margin-left: 0;
+      }
+    }
